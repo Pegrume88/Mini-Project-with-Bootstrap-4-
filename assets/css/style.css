@@ -6,6 +6,19 @@
     background-color: #676767;
 }
 
+.ui-menu-color-home{
+    background-color: #e67e22;
+}
+.ui-menu-color-resume{
+    background-color: #9b59b6;
+}
+.ui-menu-color-contact{
+    background-color: #3498db;
+}
+.ui-menu-color-download{
+    background-color: #525252;
+}
+
 /*------------------------------------------------heading*/
 
 header {
@@ -42,4 +55,16 @@ header {
     margin-top: 50px;
     margin-bottom: 90px;
     color: white;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+/* css hack to close gap between items*/
+.menucontainer{
+    font-size: 0;
+}
+#nav li{
+    font-size: 14px;
+    padding: 0;
 }
