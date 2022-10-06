@@ -19,6 +19,14 @@
     background-color: #525252;
 }
 
+.ui-menu-color-github {
+    background-color: rgb(83, 119, 216);
+}
+
+.ui-menu-color-interests {
+    background-color: darkseagreen;
+}
+
 .bg-color-three-reason {
     background-color: #fff;
 }
@@ -35,6 +43,9 @@
     background-color: #fff;
 }
 /*------------------------------------------------special paddings/margins/text*/
+
+div#map {min-height: 360px;}
+
 h1,h2,h3,h4 {
     margin: 0;
 }
